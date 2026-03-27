@@ -6,7 +6,7 @@ Essas tarefas são as que são comumente feitas após se formatar o computador, 
 
 Requisitos
 ------------
-Note que esse código foi testado somente no Debian 13 KDE, e não foi testado em outras distribuições.
+Debian 13 com GNOME
 
 
 Instalação e configuração
