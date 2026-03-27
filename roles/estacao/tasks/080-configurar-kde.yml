@@ -1,18 +1,9 @@
 ---
-- name: Cria service menu que permite imprimir fotos diretamente do explorador de arquivos
-  copy:
-    src: files/print2x2.desktop
-    dest: "/usr/share/kio/servicemenus/imprimir.desktop"
-    owner: root
-    group: root
-    mode: '0755'
-  tags: kde
-
 - name: Esconde usuário de suporte da tela de login
   copy:
-    src: files/hideusers.conf
-    dest: /etc/sddm.conf.d
+    src: files/suportecamara
+    dest: /var/lib/AccountServices/users/
     owner: root
     group: root
     mode: '0755'
-  tags: kde
+  tags: gnome
